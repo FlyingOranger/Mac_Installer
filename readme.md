@@ -2,13 +2,24 @@
 
 Currently the mac installer is not created, but I've done most of the heavy lifting if you want to help.
 
-### Dependencies
-Flying Oranger runs with 
+### As it stands
+Currently the program should run on a mac and linux, but it won't work on startup or anything.
+If you want to start development or just get it running on your machine, follow these steps:
 
-* Java
-* Node.js
+```
+mkdir FLyingOranger
+cd FlyingOranger
+git clone https://github.com/FlyingOranger/FlyingOranger.git
+git clone https://github.com/FlyingOranger/Notification_Apps.git
 
-So it really should be cross platform. 
+// download https://github.com/FlyingOranger/JavaGUI/releases/download/test2/JavaGUI.jar 
+// place it in the main directory
+
+cd FLyingOranger
+
+// now start it
+node .
+```
 
 ### What needs to be done
 There are three main things that have to be created:
